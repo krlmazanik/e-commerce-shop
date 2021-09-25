@@ -19,8 +19,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "yarn cypress open-ct",
+    "eject": "react-scripts eject",
+    "lint": "yarn run eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -41,8 +42,11 @@
     ]
   },
   "devDependencies": {
+    "@cypress/react": "^5.10.0",
+    "@cypress/webpack-dev-server": "^1.6.0",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
+    "cypress": "^8.4.1",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.26.0"
   }
