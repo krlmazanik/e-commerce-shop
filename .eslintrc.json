@@ -24,6 +24,8 @@
         "@typescript-eslint/no-use-before-define": "warn",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "warn",
+        "@typescript-eslint/ban-types": "warn",
+        "react/no-unescaped-entities": "off",
         "@typescript-eslint/interface-name-prefix": "off",
         "no-console": "warn",
         "no-multi-spaces": "warn",
@@ -40,7 +42,7 @@
             "prefer-double"
         ],
         "max-len": [
-            "error",
+            "warn",
             {
                 "code": 120
             }
