@@ -28,11 +28,12 @@
         "react/no-unescaped-entities": "off",
         "@typescript-eslint/interface-name-prefix": "off",
         "no-console": "warn",
+        "object-curly-spacing": ["warn", "always"],
         "no-multi-spaces": "warn",
         "block-spacing": "warn",
         "indent": [
             "warn",
-            2,
+            4,
             {
                 "SwitchCase": 1
             }
