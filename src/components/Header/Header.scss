@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex: 5;
+  background-color: #fff;
+  height: 65px;
+  align-items: center;
+  padding: 0 50px;
+  color: #131313;
+
+  .navigation-section {
+    display: flex;
+    justify-content: left;
+    flex: 2;
+    column-gap: 20px;
+  }
+
+  .logo-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .control-section {
+    display: flex;
+    flex: 2;
+    justify-content: right;
+    column-gap: 10px;
+
+    .user-section {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+
+        .anticon {
+            font-size: 22px;
+
+            :hover {
+                color: #FE6F5F;
+            }
+        }
+    }
+  }
+}
