@@ -1,0 +1,8 @@
+.switch {
+    display: flex;
+    align-self: center;
+
+    &.ant-switch-checked {
+        background-color: #FE6F5F;
+    }
+}
