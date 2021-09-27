@@ -1,0 +1,16 @@
+.navigation-section-btn {
+  all: unset;
+  font-size: 17px;
+
+  &:hover {
+    color: #FE6F5F;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 3px;
+  }
+
+  &:active {
+    color: red;
+  }
+}
