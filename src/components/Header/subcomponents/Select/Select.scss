@@ -1,0 +1,21 @@
+.select {
+    .ant-select-selection-item {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .ant-select-arrow {
+        color: unset;
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+        margin-top: -8px;
+    }
+}
+
+.dropdown {
+    .ant-select-item.ant-select-item-option.ant-select-item-option-selected {
+        background-color: #FE6F5F;
+    }
+}
+
